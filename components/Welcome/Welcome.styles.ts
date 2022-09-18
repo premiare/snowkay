@@ -5,8 +5,8 @@ export default createStyles((theme) => ({
     color: theme.colorScheme === 'dark' ? theme.white : theme.black,
     fontSize: 100,
     fontWeight: 900,
+    fontFamily: theme.fontFamily,
     letterSpacing: -2,
-
     [theme.fn.smallerThan('md')]: {
       fontSize: 50,
     },
