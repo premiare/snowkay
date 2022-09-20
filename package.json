@@ -1,5 +1,5 @@
 {
-  "name": "mantine-next-template",
+  "name": "snowkay",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -30,10 +30,12 @@
     "@mantine/prism": "5.2.7",
     "@next/bundle-analyzer": "^12.1.4",
     "@tabler/icons": "^1.78.1",
+    "axios": "^0.27.2",
     "cookies-next": "^2.1.1",
-    "dayjs": "^1.11.0",
+    "dayjs": "^1.11.5",
     "embla-carousel-react": "^7.0.0",
     "next": "12.2.5",
+    "next-auth": "^4.10.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
