@@ -104,7 +104,6 @@ export const Landing = () => {
 
   const findSelectedCity = (value: string) => {
     const getSelectedCity = searchResults.find((item: SearchResultResponse) => item.name === value);
-    console.log(getSelectedCity);
     getSelectedCityWeather();
     setSelectedCity(getSelectedCity);
   };
